@@ -1,0 +1,16 @@
+<manifest>
+    <remote name="github" fetch="ssh://git@github.com/rustic-music-player/"/>
+    <default revision="refs/heads/master" remote="github" sync-j="4"/>
+    <project name="core"/>
+    <project name="daemon"/>
+    <project name="gstreamer-backend"/>
+    <project name="sqlite-store"/>
+    <project name="memory-store"/>
+    <project name="local-provider"/>
+    <project name="soundcloud-provider"/>
+    <project name="spotify-provider"/>
+    <project name="pocketcasts-provider"/>
+    <project name="mpd-frontend"/>
+    <project name="http-frontend"/>
+    <project name="web-client"/>
+</manifest>

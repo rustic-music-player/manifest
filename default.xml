@@ -2,15 +2,18 @@
     <remote name="github" fetch="ssh://git@github.com/rustic-music-player/"/>
     <default revision="refs/heads/master" remote="github" sync-j="4"/>
     <project name="core"/>
-    <project name="daemon"/>
-    <project name="gstreamer-backend"/>
-    <project name="sqlite-store"/>
-    <project name="memory-store"/>
-    <project name="local-provider"/>
-    <project name="soundcloud-provider"/>
-    <project name="spotify-provider"/>
-    <project name="pocketcasts-provider"/>
-    <project name="mpd-frontend"/>
-    <project name="http-frontend"/>
-    <project name="web-client"/>
+    <project name="application" path="entrypoints/application"/>
+    <project name="daemon" path="entrypoints/daemon"/>
+    <project name="gstreamer-backend" path="backend/gstreamer"/>
+    <project name="rodio-backend" path="backend/rodio"/>
+    <project name="sqlite-store" path="store/sqlite"/>
+    <project name="memory-store" path="store/memory"/>
+    <project name="local-provider" path="provider/local"/>
+    <project name="soundcloud-provider" path="provider/soundcloud"/>
+    <project name="spotify-provider" path="provider/spotify"/>
+    <project name="pocketcasts-provider" path="provider/pocketcasts"/>
+    <project name="mpd-frontend" path="frontend/mpd"/>
+    <project name="http-frontend" path="frontend/http"/>
+    <project name="qt-frontend" path="frontend/qt"/>
+    <project name="web-client" path="client/web"/>
 </manifest>

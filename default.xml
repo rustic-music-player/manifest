@@ -1,5 +1,6 @@
 <manifest>
     <remote name="github" fetch="ssh://git@github.com/rustic-music-player/"/>
+    <remote name="maxjoehnk" fetch="ssh://git@github.com/maxjoehnk/"/>
     <default revision="refs/heads/master" remote="github" sync-j="4"/>
     <project name="core"/>
     <project name="application" path="entrypoints/application"/>
@@ -16,4 +17,5 @@
     <project name="http-frontend" path="frontend/http"/>
     <project name="qt-frontend" path="frontend/qt"/>
     <project name="web-client" path="client/web"/>
+    <project remote="maxjoehnk" name="pocketcasts-rs" path="dependencies/pocketcasts"/>
 </manifest>
